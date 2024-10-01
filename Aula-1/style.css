@@ -5,7 +5,7 @@ body {
 }
 
 #row-barra-lateral {
-    margin-top: 20px;
+    height: 100%;
 }
 
 #barra-lateral {
@@ -13,7 +13,8 @@ body {
     color: #ffffff; 
     padding: 20px;
     border-radius: 5px;
-    height: 100%; 
+    height: 100%;
+    text-align: center;
 }
 
 .form-control {
@@ -30,6 +31,7 @@ body {
 
 .btn-enviar {
     background-color: #28a745!important; 
+    color: white !important;
     border: none; 
     padding: 12px 0; 
     border-radius: 5px; 
