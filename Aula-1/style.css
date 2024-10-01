@@ -1,1 +1,68 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
 
+#row-barra-lateral {
+    margin-top: 20px;
+}
+
+#barra-lateral {
+    background-color: #343a40; 
+    color: #ffffff; 
+    padding: 20px;
+    border-radius: 5px;
+    height: 100%; 
+}
+
+.form-control {
+    border: 1px solid #ced4da; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s ease; 
+}
+
+.form-control:focus {
+    border-color: #007bff; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+}
+
+.btn-enviar {
+    background-color: #28a745!important; 
+    border: none; 
+    padding: 12px 0; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+}
+
+.btn-enviar:hover {
+    background-color: #218838; 
+    transform: translateY(-2px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.btn-enviar:active {
+    transform: translateY(1px); 
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); 
+}
+
+#row-nome-sobrenome,
+#row-cep,
+#row-rua-numero,
+#row-complemento-bairro,
+#row-estado,
+#row-enviar {
+    margin-bottom: 20px; 
+}
+
+@media (max-width: 576px) {
+    #barra-lateral {
+        display: none; 
+    }
+}
