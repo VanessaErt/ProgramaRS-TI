@@ -47,7 +47,7 @@ input[type="button"]:hover {
     transform: scale(1.05); 
 }
 
-#resultado1, #resultado2 {
+#resultado1, #resultado2, #resultado3 {
     background-color: #fafafa; 
     border: 1px solid #C7B084; 
     border-radius: 5px; 
