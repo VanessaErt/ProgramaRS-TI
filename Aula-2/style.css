@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: 'Roboto', sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0;
+    padding: 20px; 
+}
+
+h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+    color: #C7B084; 
+}
+
+.container {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.button-group {
+    margin-bottom: 20px; 
+}
+
+input[type="button"] {
+    background-color: #C7B084; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 12px 20px; 
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s, transform 0.2s; 
+    display: block; 
+    width: 100%; 
+}
+
+input[type="button"]:hover {
+    background-color: #a88a6d; 
+    transform: scale(1.05); 
+}
+
+#resultado1, #resultado2 {
+    background-color: #fafafa; 
+    border: 1px solid #C7B084; 
+    border-radius: 5px; 
+    padding: 15px; 
+    min-height: 60px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s;
+}
+
+#resultado1:hover, #resultado2:hover {
+    background-color: #eaeaea;
+}
+
+/* Estilo para o botão Limpar */
+#limpar {
+    background-color: #ff4d4d; 
+}
+
+#limpar:hover {
+    background-color: #ff1a1a; 
+}
